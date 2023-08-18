@@ -1,0 +1,6 @@
+"id","username","password","xss_attack_username","xss_attack_password","mac_address","status","Time_stamp"
+"1","logesh","234",NULL,NULL,"e4:a7:a0:87:e2:54","Access granted","2023-05-08 16:10:20"
+"2","krishna","25456",NULL,NULL,"e4:a7:a0:87:e2:54","Access granted","2023-05-08 16:11:05"
+"3","chandru","765",NULL,NULL,"e4:a7:a0:87:e2:54","Access granted","2023-05-08 16:11:16"
+"4","balaji","464",NULL,NULL,"e4:a7:a0:87:e2:54","Access granted","2023-05-08 16:11:25"
+"5","<script>alert('xss')</script>","1233","Reflected XSS attack detected!",NULL,"e4:a7:a0:87:e2:54","Blocked","2023-05-08 16:11:55"
